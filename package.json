@@ -1,5 +1,5 @@
 {
-    "name": "lyy393/bail",
+    "name": "@lyy393/bail",
     "version": "1.7.3",
     "description": "Lyy | Ai",
     "keywords": [
@@ -14,10 +14,12 @@
     "main": "lib/index.js",
     "types": "lib/index.d.ts",
     "files": [
-        "lib/*",
-        "WAProto/*.js",
-        "engine-requirements.js"
-    ],
+    "lib",
+    "WAProto",
+    "engine-requirements.js"
+      ]
+     ],
+    
     "scripts": {
         "build:all": "tsc && typedoc",
         "build:docs": "typedoc",
